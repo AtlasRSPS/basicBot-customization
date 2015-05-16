@@ -1,6 +1,6 @@
 (function () {
     //Link location of your fork so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "AtlasRSPS";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -57,8 +57,8 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "basicBot",
         language: "english",
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
+        startupCap: 5, // 1-200
+        startupVolume: 10, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
