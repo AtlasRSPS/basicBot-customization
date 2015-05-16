@@ -55,15 +55,15 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot555",
+        botName: "ChatBot",
         language: "english",
-        startupCap: 5, // 1-200
-        startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
+        startupCap: 100, // 1-200
+        startupVolume: null, // 0-100
+        startupEmoji: true, // true or false
         cmdDeletion: true,
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         maximumAfk: 120,
-        afkRemoval: true,
+        afkRemoval: false,
         maximumDc: 60,
         bouncerPlus: true,
         blacklistEnabled: true,
@@ -75,9 +75,9 @@
         voteSkip: false,
         voteSkipLimit: 10,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 30,
         autodisable: true,
-        commandCooldown: 30,
+        commandCooldown: 10,
         usercommandsEnabled: true,
         lockskipPosition: 3,
         lockskipReasons: [
@@ -92,8 +92,8 @@
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
         motdEnabled: false,
-        motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motdInterval: 15,
+        motd: "motd goes here",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
@@ -102,7 +102,7 @@
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
-        website: null,
+        website: http://atlasps.org/index.php,
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
